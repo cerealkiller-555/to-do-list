@@ -12,7 +12,7 @@ app.secret_key = '0000'
 def init_db():
     conn = sqlite3.connect('todo.db')
     c = conn.cursor()
-    
+        "/home/malak/.vscode/extensions/algoritmika.algopython-20251111.203400.0/temp/to-do list/.venv/bin/python" app.py
     # Create todos table
     c.execute('''
         CREATE TABLE IF NOT EXISTS todos (
